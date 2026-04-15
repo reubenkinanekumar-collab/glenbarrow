@@ -1,0 +1,122 @@
+body {
+	font-family: Calibri, sans-serif;
+	font-size:1.1em;
+	margin: 0px;
+	background-color: #e8fbd2; /*pale green ik*/
+}
+#container {
+		width: 70%;
+	 	margin: 0px auto;
+	  	background-color: #F2EFDF; /*lightgray ik*/ 
+	  	/*padding: 10px;*/
+		box-shadow: 10px 0px 5px #888888; /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+}
+header{ /*background-color: #05572d; /*dark green ik*/
+	/*color: white;
+	margin: 0px;*/
+}
+#contact {background:#AF9D88; /* tan ik*/
+	text-align: right;
+	color: white;
+	padding: .2em .5em;
+	height:3em;
+}
+#contact img {height:32px;
+	width:32px;
+	/*border:0px;*/
+	vertical-align:middle;
+}
+#logo {background-color: #05572d; /*dark green ik*/
+	/*color: white;*/
+	margin: 0px;
+	padding: .2em 0.5em;
+	/*text-align: center;*/
+	height: 5em;
+}
+
+#logo img{float: left;
+	margin: 0.7em 0.5em;
+}
+/*#contact a:link , #contact a:visited, footer a:link, footer a:visited, table a:link, table a:visited{
+    text-decoration: none;
+	color: white;;
+}*/
+ a:link ,  a:visited{
+    text-decoration: none;
+	color: white;
+}
+	
+main{padding: 0.5em 1.5em;}
+main img{width: 97%;
+	height: 15em;
+	border: 1em solid #AF9D88;
+}
+h1 {color:  #05572d;
+	font-weight:normal;}
+footer {background-color: #05572d; /*dark green ik*/
+	color: white;
+	font-size: smaller;
+	margin: 0px;
+	padding: .2em 0.5em;
+	height: 7em;
+}
+
+footer img{height:32px;
+	width:32px;
+	border:0px;
+	vertical-align:middle;
+}
+
+table {border: 1px solid #AF9D88;
+	border-collapse: collapse;
+	text-align:center;
+	background-color: #AF9D88;
+	margin: 1em 0;
+}
+th, td {border: 1px solid #AF9D88;
+	
+   /* padding: .2em .7em;
+    text-align: right; */
+}
+table img{width: 100%;
+	height: 100%;
+	border: none;
+}
+table tr:nth-child(2){color: #05572d;}
+
+label {width:10em;
+	float:left;
+	margin-right:1em;
+	text-align: right;
+}
+
+legend {
+	color:#05572d;
+	font-size:1.2em;
+}
+fieldset { 
+	border: 3px solid #AF9D88;
+	line-height: 1.5em;
+	/*border:  1px groove #05572d; /*dark green ik*/
+	/*background-color:#ebe6e0;*/
+}
+#submit { 
+		margin-left:14.5em;
+		background-color: #AF9D88;
+		color: white;
+		border:grove;
+
+}
+input, select{width: 12em;}
+input, select {
+    width: 12em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px; /*adds rounded borders */
+    box-sizing: border-box;/*https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
+}
+
+
+
+
+
